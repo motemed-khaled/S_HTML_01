@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Form Task</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="person">Personal Data</div>
+        <form action="" method="post">
+            <div class="name">
+                <div class="label">Your Name</div>
+                <div class="first">
+                <label for="firstname">FirstName :</label>
+                <input type="text" name="firstname" id="firstname" placeholder="motemed">
+                </div>
+                <div class="second">
+                <label for="secondname">SecondName :</label>
+                <input type="text" name="secondname" id="secondname" placeholder="khaled">
+                </div>
+            </div>
+            <div class="data">
+                <div class="phone">
+                    <label for="phone">Your Phone :</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="email">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="pass">
+                    <label for="pass">Password :</label>
+                    <input type="password" id="pass" name="pass">
+                </div>
+                <div class="re-pass">
+                    <label for="re-pass">Re-Password :</label>
+                    <input type="password" id="re-pass" name="re-pass">
+                </div>
+            </div>
+            <div class="gender">
+                <div class="male">
+                <input type="radio" id="male" value="male" name="gender">
+                <label for="male">Male</label>
+                </div>
+                <div class="female">
+                <input type="radio" id="female" value="female" name="gender">
+                <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="status">
+                <div class="student">
+                    <input type="checkbox" name="status" id="student" value="student">
+                    <label for="student">Student</label>
+                </div>
+                <div class="graduated">
+                    <input type="checkbox" name="status" id="graduated" value="graduated">
+                    <label for="graduated">Graduated</label>
+                </div>
+            </div>
+            <div class="university">
+                <div class="uni">
+                    <label for="uni">University</label>
+                    <select name="uni" id="uni">
+                        <option value="1" selected>AUC</option>
+                        <option value="2" selected>AUC</option>
+                        <option value="3" selected>AUC</option>
+                    </select>
+                </div>
+                <div class="submit">
+                    <button >Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
